@@ -1,5 +1,5 @@
 import React from "react";
-import RedditPosts from "RedditPosts";
+import RedditPosts from "./RedditPosts";
 import "./style.css";
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
       </header>
 
       <main>
-        <h1>Posts from r/MechanicalKeyboards</h1>
+        <h1>Posts from r/MechanicalKeyboards!</h1>
         <RedditPosts />
       </main>
 
