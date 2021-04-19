@@ -1,0 +1,37 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+  background-color: wheat;
+}
+
+#react {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+
+  grid-template-rows: 10em auto auto;
+}
+
+header {
+  grid-area: header;
+  background-color: brown;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  background-color: lightblue;
+}
