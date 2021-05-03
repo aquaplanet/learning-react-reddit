@@ -1,3 +1,11 @@
+:root {
+  --dark-red: #ff020a;
+  --medium-red: #ff595e;
+  --light-red: #ffaeb1;
+  --blue: #1982c4;
+  --purpule: #6a4c93;
+}
+
 h1,
 p {
   font-family: Lato;
@@ -5,7 +13,7 @@ p {
 
 body {
   margin: 0;
-  background-color: wheat;
+  background-color: white;
 }
 
 #react {
@@ -20,7 +28,7 @@ body {
 
 header {
   grid-area: header;
-  background-color: brown;
+  background-color: var(--medium-red);
 }
 
 header h1 {
