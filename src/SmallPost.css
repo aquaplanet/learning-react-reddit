@@ -1,0 +1,9 @@
+.smallpost img {
+    float: left;
+    border-radius: 30% 0 0 30%;
+
+}
+
+.smallpost * {
+    margin: 0;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa&family=Roboto:wght@400;700&family=Seaweed+Script&display=swap');
+
 :root {
   --dark-red: #ff020a;
   --medium-red: #ff595e;
@@ -8,12 +10,30 @@
 
 h1,
 p {
-  font-family: Lato;
+  font-family: Lato, sans-serif;
+}
+
+h1 {
+  color: black;
+  font-family: "Seaweed Script", serif;
+}
+
+h2 {
+  color: var(--medium-red);
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h3 {
+  color: var(--purpule);
+  font-family: "Roboto", serif;
 }
 
 body {
   margin: 0;
   background-color: white;
+  font-family: Roboto, serif;
 }
 
 #react {
