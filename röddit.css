@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa&family=Roboto:wght@400;700&family=Seaweed+Script&display=swap');
+
+:root {
+	--color-main: #FF595E;
+	--color-light: #FFAEB1;
+	--color-accent: #6A4C93;
+
+	--ff-title: "Seaweed Script", serif;
+	--ff-main: "Rasa", serif;
+	--ff-header: "Roboto", sans-serif;
+	--ff-metadata: "Rasa", serif;
+}
+
+* {
+	font-family: var(--ff-main);
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1, h2 {
+	font-family: var(--ff-header);
+	color: var(--color-main);
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+h3 {
+	margin: 0;
+	color: var(--color-accent);
+	font-size: 1em;
+}
+
+header {
+	background-color: var(--color-main);
+	display: grid;
+	justify-content: space-between;
+	max-height: 12rem;
+}
+
+
+header h1 {
+	margin: 0;
+	padding: 5rem;
+	grid-column: 1;
+	grid-row: 1;
+	font-family: var(--ff-title);
+	font-size: 10em;
+	color: black;
+}
+
+header section {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+
+header section img {
+	border-radius: 50%;
+	grid-column: 2;
+	grid-row: 1;
+	z-index: 100;
+}
+
+header section label,
+header section input {
+	grid-column: 2;
+	grid-row: 1;
+	z-index: 200;
+
+}
+
+nav img {
+	float: left;
+	border-radius: 30% 0 0 30%;
+}
